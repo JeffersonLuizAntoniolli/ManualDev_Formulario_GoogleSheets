@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário - Salvar dados Google Sheets</title>
+</head>
+<body>
+    <!-- FORMA SIMPLIFICADA DE REALIZAR ENVIO DAS INFORMAÇÕES USANDO 'SHEET MONKEY', APENAS UTILIZAR UM FORM COM METHODO 'POST' E METODO DA API DA PLATAFORMA CONFORME ABAIXO -->
+    <!-- NECESSARIO TER UMA CONTA VINCULADA COM SEU GMAIL NA PLATAFORMA 'https://sheetmonkey.io/' PARA REALIZAR DE FORMA SIMPLIFICADA -->
+    <!-- <form action="https://api.sheetmonkey.io/form/65jnnY896ZacJfxLca76ZQ" method="post"> -->
+    <form>
+        <h1>Seja Bem-vindo</h1>
+        <label>
+            <span>Nome:</span>
+            <input type="text" name="name">
+        </label>
+
+        <label>
+            <span>Email:</span>
+            <input type="email" name="email">
+        </label>
+
+        <button type="submit">
+            Enviar
+        </button>
+    </form>
+    <!--<img src="./img/loadingteste.png" class="image">-->
+    <!-- FORMA AVANÇADA DE REALIZAR ENVIO DAS INFORMAÇÕES, USANDO UM ARQUIVO COM CODIGO JAVASCRIPT E ATRELADO AO HTML PARA REALIZAR ENVIO -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
